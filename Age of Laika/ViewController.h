@@ -11,7 +11,10 @@
 @interface ViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UILabel *numOfDogYearsLabel;
 @property (strong, nonatomic) IBOutlet UITextField *numOfYearTextField;
+@property (strong, nonatomic) IBOutlet UILabel *numOfRealDogYearsLabel;
+
 - (IBAction)buttonPressed:(UIButton *)sender;
+- (IBAction)convertToRealDogYearsButtonPressed:(UIButton *)sender;
 
 @end
 
